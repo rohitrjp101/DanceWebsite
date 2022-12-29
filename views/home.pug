@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts 
+    script(src='/index.js')
+
+block style 
+    style 
+        include ../public/style.css
+
+block content
+        section#introSection 
+            div  Welcome to Rokky's Dance Academy 
+            div.small  Eat Sleep Dance Repeat
+        section#missionSection 
+            h2 Our Mission
+            div.card-container
+                div.card
+                    h3 Dance perfection
+                    div.card-box
+                        div.card-img
+                            img(src="/1.png", alt="")
+                        div.card-content
+                            p This is the best dance academy of the universe
+                div.card
+                    h3 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="/2.png", alt="")
+                        div.card-content
+                            p This is the best dance academy of the universe
+                div.card
+                    h3 Expert Teaching 
+                    div.card-box
+                        div.card-img
+                            img(src="/3.png", alt="")
+                        div.card-content
+                            p This is the best dance academy of the universe
+        section#sponsorsSection 
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="/images/facebook.svg", alt="Sponsor Image" class="spImage")
+                img(src="/images/apple.svg", alt="Sponsor Image" class="spImage")
+                img(src="/images/amazon.svg", alt="Sponsor Image" class="spImage")
+                img(src="/images/microsoft.svg", alt="Sponsor Image" class="spImage")
+                img(src="/images/google.svg", alt="Sponsor Image" class="spImage")

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&family=Poppins&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+#logo img{
+    height: 3rem;
+    filter: invert(0.9);
+}
+
+#navbar{
+    background-color: rgb(109, 109, 230);
+    padding: 16px 20px;
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 8px 12px;
+    color: white;
+    padding: 0 32px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    background: center / cover no-repeat url("/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 40rem;
+    color: white;
+    padding-top: 10rem;
+}
+
+#introSection div.small{
+    font-size: 1.25rem;
+}
+
+#missionSection{
+    height: 25rem;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    /* display: inline-block; */
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin: 1rem 2rem;
+    height: 15rem;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 10rem;
+    padding: 0 1rem;
+    margin: 1rem 0.5rem;
+}
+
+.card-img img{
+    height: inherit;
+
+}
+
+.card-content{
+    padding: 0 0.5rem;
+}
+
+#sponsorsSection{
+    height: 20rem;
+    background-color: green;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 16px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 1.5rem;
+}
+
+#sponsors{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-color: black;
+    color: white;
+}
